@@ -12,5 +12,5 @@ jobs:
       - name: Issue comment
         uses: GrantBirki/comment@v2.0.10
         with:
-          token: ${{ secret.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           body: Thanks for opening an issue!
