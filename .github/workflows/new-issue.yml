@@ -30,4 +30,4 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
           issue-number: ${{ github.event.issue.number }}
-          body: ${{ steps.run-script.outputs.body}
+          body: ${{ steps.run-script.outputs.body}}
