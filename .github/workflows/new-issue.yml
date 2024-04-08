@@ -13,4 +13,5 @@ jobs:
         uses: GrantBirki/comment@v2.0.10
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.issue.number }}
           body: Thanks for opening an issue!
